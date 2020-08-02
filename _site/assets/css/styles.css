@@ -1,0 +1,98 @@
+* { box-sizing: border-box; }
+
+html, body { margin: auto; padding: 0; width: 75%; color: #464B4B; }
+
+html { font-family: Inter, sans-serif; font-size: 18px; overflow-y: scroll; }
+
+@media (max-width: 800px) { html { width: 100%; } }
+
+body { -webkit-text-size-adjust: 100%; }
+
+@media (max-width: 800px) { body { font-size: 16px; width: 90%; margin: auto; } }
+
+h2 { font-size: 28px; color: #171C1D; text-transform: uppercase; }
+
+.section { padding: 0 0 16px 0; border-bottom-style: dashed; border-width: 1px; border-color: #E2E1DF; }
+
+.section a { text-decoration: none; color: #1A117C; font-size: 14px; font-weight: 500; }
+
+.section a:hover, .section a:focus { color: #FF0099; }
+
+.section i { vertical-align: middle; }
+
+.section-link { padding: 16px 0 0 0; text-align: right; }
+
+footer { margin: 80px 0 0 0; padding: 16px 0 16px 0; font-size: 14px; color: #464B4B; border-top-style: solid; border-color: #CECDCA; border-width: 1px; }
+
+footer a { text-decoration: none; color: #1A117C; padding: 0 8px 0 8px; }
+
+footer a:hover, footer a:focus { text-decoration: underline; }
+
+p { color: #464B4B; font-size: 18px; line-height: 1.7em; }
+
+h1, h2, h3 { color: #171C1D; }
+
+br { height: 12px; }
+
+nav { margin: 36px 0px 64px 0px; }
+
+nav ul { margin: 0; padding: 0; list-style: none; overflow: hidden; }
+
+@media (max-width: 500px) { nav ul { display: grid; grid-gap: 16px; text-align: center; } }
+
+nav li { display: inline; float: right; }
+
+nav a { font-weight: normal; font-size: 16px; color: #464B4B; padding: 6px 12px; text-align: center; text-decoration: none; letter-spacing: 0.1em; }
+
+nav a:hover, nav a:focus { color: #FF0099; }
+
+@media (max-width: 800px) { nav a { font-size: 14px; } }
+
+.current { font-weight: normal; color: #FF0099; }
+
+.identity { padding: 0; font-weight: bold; color: #171C1D; font-size: 18px; text-transform: uppercase; }
+
+@media (max-width: 400px) { .identity { text-align: center; } }
+
+.row { display: flex; flex-wrap: wrap; padding: 0; margin: 0; justify-content: space-between; }
+
+/* Create two equal columns that sits next to each other */
+.two-column { flex: 50%; max-width: 48%; }
+
+.two-column img { vertical-align: middle; }
+
+/* Create two columns that sits next to each other, with 1/3 proposition */
+.twothree-column { flex: 60%; max-width: 56%; }
+
+.onethree-column { flex: 40%; max-width: 36%; }
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) { .two-column, .twothree-column, .onethree-column { flex: 100%; max-width: 100%; margin-top: 12px; } }
+
+.catalogue { width: 70%; margin-top: 42px; }
+
+.catalogue-item { display: block; padding: 0 0 16px 0; }
+
+.catalogue-time { color: #879092; font-size: 12px; letter-spacing: .5px; margin-block-start: 0.1em; }
+
+.catalogue-title { color: #171C1D; display: block; font-size: 24px; font-weight: 600; margin-block-end: 0.3em; }
+
+.catalogue-title:hover, .catalogue-title:focus { color: #FF0099; }
+
+.catalogue p { margin-block-start: 0.5em; margin-block-end: 0.5em; color: #464B4B; font-size: 14px; line-height: 1.2rem; }
+
+.catalogue a { text-decoration: none; padding: 0; }
+
+@media (max-width: 800px) { .catalogue { width: 100%; } }
+
+.post { margin: 64px 0 0 0; width: 80%; font-weight: 400; }
+
+.post h1 { color: #171C1D; font-size: 48px; margin-block-start: 0.3em; margin-block-end: 1em; }
+
+.post-time { font-size: 14px; color: 18px; font-weight: normal; }
+
+.post ol, .post li { line-height: 1.4em; padding: 0px 0 8px 0; margin: 0; }
+
+@media (max-width: 800px) { .post { width: 100%; margin: 42px 0 0 0; } }
+
+/*# sourceMappingURL=styles.css.map */

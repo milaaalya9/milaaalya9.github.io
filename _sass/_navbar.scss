@@ -1,0 +1,56 @@
+nav {
+	margin: 36px 0px 64px 0px;
+
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    @media (max-width: 500px) {
+    display: grid;
+    grid-gap: 16px;
+    text-align: center;
+    }
+
+  }
+
+  li { 
+  	display: inline;
+  	float: right;
+   }
+
+  a {
+    font-weight: normal;
+  	font-size: 16px;
+  	color: $text-body;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+
+    &:hover, &:focus{
+    color: $hotpink;
+    }
+
+    @media (max-width: 800px) {
+    font-size: $caption;
+    }
+  }
+}
+
+.current {
+  font-weight: normal;
+	color: $hotpink;
+}
+.identity{
+  padding: 0;
+  font-weight: bold;
+	color: $text-heading;
+	font-size: $body;
+  text-transform: uppercase;
+  
+  @media (max-width: 400px) {
+    text-align: center;
+  }
+}

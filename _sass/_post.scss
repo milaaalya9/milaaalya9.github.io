@@ -1,0 +1,30 @@
+.post{
+	margin: 64px 0 0 0;
+	width: 80%;
+	font-weight: 400;
+
+	h1{
+		color: $text-heading;
+		font-size: $title;
+		margin-block-start: 0.3em;
+		margin-block-end: 1em;
+	}
+	
+	&-time{
+		font-size: $caption;
+		color: $body;
+		font-weight: normal;
+	}
+
+	ol, li {
+	line-height: 1.4em;
+	padding: 0px 0 8px 0;
+	margin: 0;
+	}
+
+	@media (max-width: 800px) {
+  		width: 100%;
+  		margin: 42px 0 0 0;
+  	}
+
+}

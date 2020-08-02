@@ -1,0 +1,46 @@
+.catalogue {
+  width: 70%;
+  margin-top: 42px;
+
+  &-item {
+    display: block;
+    padding: 0 0 16px 0;
+  }
+
+  &-time {
+    color: $text-subdue;
+    font-size: $caption-smaller;
+    letter-spacing: .5px;
+    margin-block-start: 0.1em;
+  }
+
+  &-title {
+    color: $text-heading;
+    display: block;
+    font-size: $subheading;
+    font-weight: 600;
+    margin-block-end: 0.3em;
+
+    &:hover, &:focus{
+      color: $hotpink;
+    }
+
+  }
+  p{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    color: $text-body;
+    font-size: $caption;
+    line-height: 1.2rem;
+  }
+
+  a{
+    text-decoration: none;
+    padding: 0;
+  
+  }
+
+  @media (max-width: 800px) {
+  width: 100%;
+  }
+}
