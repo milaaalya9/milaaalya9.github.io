@@ -1,13 +1,8 @@
----
-layout: default
-title: About
----
-
-<h1>Hi, I'm Mila!</h1>
+I"_<h1>Hi, I'm Mila!</h1>
 <div class="row">
 <div class="twothree-column">
 	<p style="margin-block-start: 0;">
-	Currently working as a UX designer in design system team at Bukalapak. I am passionate to learn about strategic product design, especially on social and business aspects. I have this huge curiosity on how design can bring impact to issues I care about: women & children's rights and environmental sustainability. 
+	Currently working as a UX designer in design system team at Bukalapak. I am passionate to learn about strategic product design, especially on social and business aspects. I have this huge curiosity on how design can bring impact to issues I care about: women &amp; children's rights and environmental sustainability. 
 	</p>
 	<p>
 	While that is my main interest, in 2020 I focus on honing my 'abstract to concrete' thinking and visual design skill. 
@@ -20,6 +15,7 @@ title: About
 	</p>
 </div>
 <div class="onethree-column"> 
-	<img src="assets/image/about-photo.png" style="width:100%">
+	<img src="assets/image/about-photo.png" style="width:100%" />
 </div>
 </div>
+:ET
