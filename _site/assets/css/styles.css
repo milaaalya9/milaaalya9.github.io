@@ -79,8 +79,6 @@ nav a:hover, nav a:focus { color: #FF0099; }
 
 .catalogue-title:hover, .catalogue-title:focus { color: #FF0099; }
 
-.catalogue p { margin-block-start: 0.5em; margin-block-end: 0.5em; color: #464B4B; font-size: 14px; line-height: 1.2rem; }
-
 .catalogue a { text-decoration: none; padding: 0; }
 
 @media (max-width: 800px) { .catalogue { width: 100%; } }
