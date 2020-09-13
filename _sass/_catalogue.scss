@@ -37,3 +37,16 @@
   width: 100%;
   }
 }
+.worklist{
+  margin: 36px 0px 56px 0px;
+  span{
+  color: $text-subdue;
+  }
+  b{
+  font-weight:600;
+  }
+  p{
+  margin-block-start:0.5em;
+  }
+  
+}

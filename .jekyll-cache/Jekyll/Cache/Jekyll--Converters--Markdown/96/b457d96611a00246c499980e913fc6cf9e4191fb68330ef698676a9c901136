@@ -1,28 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  </head>
-  <body>
-  	<nav>
-	<ul>
-		<li style="float: left;"><a href="/" class="identity"> Mila Alief </a></li>
-		<li>
-	  		
-	  		 <a href="/" >Blog</a>
-	  		
-	  		 <a href="/work.html" >Work</a>
-	  		
-	  		 <a href="/about.html" class="current">About</a>
-	  		
-	  	</li>
-	</ul>
-</nav>
-    <div class="row">
+I"!<div class="row">
 <div class="twothree-column">
 	<h1>Hi, I'm Mila!</h1>
 	<h4>An 🇮🇩 digital product designer</h4>
@@ -59,13 +35,4 @@
 	<img src="assets/image/about-photo.png" style="width:100%" />
 </div>
 </div>
-
-    <footer>
-  <span>
-    &copy; <time datetime="2020-09-13 10:24:27 +0700">2020</time> Mila Alief.
-    <a href="https://twitter.com/milalief">Twitter</a>
-    <a href="https://www.linkedin.com/in/milaalief/">Linkedin</a>
-  </span>
-</footer>
-  </body>
-</html>
+:ET

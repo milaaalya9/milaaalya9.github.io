@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 * { box-sizing: border-box; }
 
-html, body { margin: auto; padding: 0; width: 75%; color: #464B4B; }
+html, body { font-family: 'Barlow', sans-serif; margin: auto; padding: 0; width: 80%; color: #2D3031; }
 
-html { font-family: Inter, sans-serif; font-size: 18px; overflow-y: scroll; }
+html { font-size: 18px; overflow-y: scroll; }
 
 @media (max-width: 800px) { html { width: 100%; } }
 
@@ -10,9 +11,7 @@ body { -webkit-text-size-adjust: 100%; }
 
 @media (max-width: 800px) { body { width: 90%; margin: auto; } }
 
-h2 { font-size: 28px; color: #171C1D; text-transform: uppercase; }
-
-.section { padding: 0 0 16px 0; border-bottom-style: dashed; border-width: 1px; border-color: #E2E1DF; }
+.section { padding: 0 0 16px 0; border-bottom-style: dashed; border-width: 1px; border-color: #1A117C; }
 
 .section a { text-decoration: none; color: #1A117C; font-size: 14px; font-weight: 500; }
 
@@ -22,15 +21,29 @@ h2 { font-size: 28px; color: #171C1D; text-transform: uppercase; }
 
 .section-link { padding: 16px 0 0 0; text-align: right; }
 
-footer { margin: 80px 0 0 0; padding: 16px 0 16px 0; font-size: 14px; color: #464B4B; border-top-style: solid; border-color: #CECDCA; border-width: 1px; }
+footer { margin: 80px 0 0 0; padding: 16px 0 16px 0; font-size: 14px; color: #2D3031; border-top-style: solid; border-color: #CECDCA; border-width: 1px; }
 
 footer a { text-decoration: none; color: #1A117C; padding: 0 8px 0 8px; }
 
 footer a:hover, footer a:focus { text-decoration: underline; }
 
-p { color: #464B4B; font-size: 18px; line-height: 1.7em; }
+p { color: #2D3031; font-size: 18px; line-height: 1.5em; margin-block-end: 0; }
 
-h1, h2, h3 { color: #171C1D; }
+h1, h2, h3, h4 { color: #0D0F0F; margin-block-start: 0; margin-block-end: 4px; }
+
+h1, h2 { color: #1A117C; }
+
+h1 { font-size: 48px; font-weight: 600; line-height: 52px; }
+
+h2 { font-size: 36px; color: #0D0F0F; }
+
+h3 { font-size: 28px; color: #0D0F0F; font-weight: 500; }
+
+h4 { font-size: 24px; font-weight: 600; color: #1A117C; }
+
+h5 { font-size: 14px; }
+
+ul { margin-block-start: 0; }
 
 br { height: 12px; }
 
@@ -42,7 +55,7 @@ nav ul { margin: 0; padding: 0; list-style: none; overflow: hidden; }
 
 nav li { display: inline; float: right; }
 
-nav a { font-weight: normal; font-size: 16px; color: #464B4B; padding: 6px 12px; text-align: center; text-decoration: none; letter-spacing: 0.1em; }
+nav a { font-weight: normal; font-size: 16px; color: #2D3031; padding: 6px 12px; text-align: center; text-decoration: none; letter-spacing: 0.1em; }
 
 nav a:hover, nav a:focus { color: #FF0099; }
 
@@ -50,7 +63,7 @@ nav a:hover, nav a:focus { color: #FF0099; }
 
 .current { font-weight: normal; color: #FF0099; }
 
-.identity { padding: 0; font-weight: bold; color: #171C1D; font-size: 18px; text-transform: uppercase; }
+.identity { padding: 0; font-weight: bold; color: #0D0F0F; font-size: 18px; text-transform: uppercase; }
 
 @media (max-width: 400px) { .identity { text-align: center; } }
 
@@ -73,9 +86,9 @@ nav a:hover, nav a:focus { color: #FF0099; }
 
 .catalogue-item { display: block; padding: 0 0 16px 0; }
 
-.catalogue-time { color: #879092; font-size: 12px; letter-spacing: .5px; margin-block-start: 0.1em; }
+.catalogue-time { color: #787D7E; font-size: 12px; letter-spacing: .5px; margin-block-start: 0.1em; }
 
-.catalogue-title { color: #171C1D; display: block; font-size: 24px; font-weight: 600; margin-block-end: 0.3em; }
+.catalogue-title { color: #0D0F0F; display: block; font-size: 24px; font-weight: 600; margin-block-end: 0.3em; }
 
 .catalogue-title:hover, .catalogue-title:focus { color: #FF0099; }
 
@@ -83,9 +96,17 @@ nav a:hover, nav a:focus { color: #FF0099; }
 
 @media (max-width: 800px) { .catalogue { width: 100%; } }
 
+.worklist { margin: 36px 0px 56px 0px; }
+
+.worklist span { color: #787D7E; }
+
+.worklist b { font-weight: 600; }
+
+.worklist p { margin-block-start: 0.5em; }
+
 .post { margin: 64px 0 0 0; width: 80%; font-weight: 400; }
 
-.post h1 { color: #171C1D; font-size: 48px; margin-block-start: 0.3em; margin-block-end: 1em; }
+.post h1 { margin-block-start: 0.3em; margin-block-end: 1em; }
 
 .post-time { font-size: 14px; color: 18px; font-weight: normal; }
 
