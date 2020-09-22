@@ -16,7 +16,7 @@ title: Mila Alief Portfolio
     {% for portfolio in site.portfolios %}
     <div class="two-column space-down-54">
         <a href="{{ portfolio.url }}">
-          <img src="{{ portfolio.image }}" style="width:100%">
+          <img src="{{ site.baseurl }}{{ portfolio.image }}" style="width:100%">
           <h3 class="catalogue-title">{{ portfolio.name }}</h3>
           <p class="catalogue-identifier"><b>{{ portfolio.company }} </b>{{portfolio.workduration}}</p>
           <span class="readduration">{{ portfolio.readduration }} read</span>
