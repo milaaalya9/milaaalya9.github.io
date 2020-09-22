@@ -1,0 +1,78 @@
+I"�<p class="section-porto space-up-16">Bazaar is Bukalapak’s Design System enable easier collaboration to make a cohesive experience and scalable products for Bukalapak. I was one of three designers in the design system team. In this project, mainly responsible to coordinate and execute the system transformation supervised by the head of design</p>
+
+<h5>Team</h5>
+<div class="row">
+	<div class="two-column team"> 
+			<li>Budi Tanrim as Head of Design</li>
+			<li>Barata as UX Designer</li>
+			<li>Afnizar as UX Designer</li>
+	</div>
+	<div class="two-column team"> 
+			<li>Dani, Putra, Eric as Apps Engineer</li>
+			<li>Ishaq, Furqon, Adwin, Yahya as UX Engineer</li>
+		</div>
+</div>
+
+<p><img src="/assets/image/porto/bukamodal-hero.png" class="full-width" /></p>
+
+<div class="section-porto">
+	<p class="section-subheader">Problem background</p>
+	<h3>With 40+ products, that keeps on growing, our system is having a hard time catch up </h3>
+	<p>After one year with a centralized model where Core Bazaar Team makes components, we observe the system have been stale and encounter problems. The signal is our team which is low in number can’t keep up with products demands that keep on increasing.</p>	
+</div>
+
+<div class="section-porto">
+	<p class="section-subheader">Understanding system user problems</p>
+	<h3>System users feel Bazaar components are not sufficient and invent non-reusable new components</h3>
+	<p>I interviewed 3 engineers and 3 designers to understand their current struggle. I found out system users..</p>
+	<li>Feel like using components that not necessarily optimized for their product-specific needs  and decided to create their own component in feature. Thus resulting in tons of component divergence that can't be reused directly.
+	</li>
+	<li> Want to reuse components from other squads that are not in Bazaar. So, they copy-paste the code, and this is not scalable when update is made.</li>	
+	<br />
+	<img src="/assets/image/porto/bukamodal-1.png" style="width: 100%" />
+</div>
+
+<div class="section-porto">
+	<p class="section-subheader">Solution</p>
+	<h3>A capital loan aggregator</h3>
+	<p class="space-down-24">Our team decided to build a platform providing various loan offers from different trusted providers, so sellers can choose the fund they needed in one place.</p>	
+	<b>Objective</b>
+	<p class="space-down-16"> Enable sellers get the fund they needed with shorter process and and a higher chance to be approved, so they can elevate their business.</p>
+	<b>Success metrics</b>
+	<li> 
+	Number of sellers get a capital loan from our platform </li>
+	<li> 
+	The revenue we receive from partners based on loan disbursed amount</li>
+</div>
+<div class="section-porto">
+	<p class="section-subheader">Process in crafting the design</p>
+	<h3>I facilitated whiteboarding co-creation, design, and iterate it based on various feedbacks</h3>
+	<p>Together with PM, APM, and the Researcher we created the user flow in the whiteboard. After consolidating our favorite wire flow, I sketch wireframe design to demonstrate product value propositions that matched seller needs. I consulted multiple times to the product and business team, to make sure it was suitable for the business model since Fintech has a tight regulation.
+	I proceeded to created high-fidelity prototype. Later, I gathered another round of feedback from other designers, the team, stakeholders, and partners. In pararell, the researcher and I conducted usability and concept testing to 5 sellers. After the testing, I revised the design based on issues finding before handing it to the engineering team.</p>	
+</div>
+<div class="section-porto">
+	<h3>The key designs</h3>
+	<img src="/assets/image/porto/bukamodal-2.png" class="full-width" />
+	<b>Landing page</b>
+	<p class="space-down-16">Above the fold, I highlighted what they can do with additional fund, and a recommendation button as the call to action that will take them to know the  potential amount they can get based on their selling transaction. I also sneak peeks 3 of benefit using our platform that reflects sellers' current struggles in getting funded.</p>	
+	<b>Loan listing</b>
+	<p class="space-down-16">Sellers have a lot of things to consider, and to compare offers easily, I decided to display the main information in the card, summarize secondary information in accordion, and put details that are less important &amp; will not contribute to the choosing process in a link to another page. The design enables them to compare in one page.</p>
+	<b>Application form</b>
+	<p class="space-down-16">The application form is quite challenging because it requires users to input a lot of data and it’s hard to avoid. As I thought it will be overwhelming for user to fill it all at one go, I divided the KYC forms into three processes with 1 scroll for each forms to make it feel short in term of number of steps and questions per-page and user can get small win in each steps.</p>
+	<img src="/assets/image/porto/bukamodal-5.png" class="full-width" />	
+</div>
+<div class="section-porto">
+	<p class="section-subheader">Outcomes</p>
+	<h3>One quarter after the release, the product had disbursed 2X (Twice) total loan amount of the business team manual proof of concept project’s amount generated.</h3>
+	<p>A seller testimonies who get the fund they needed to grow their business</p>
+	<p>"Quite good, the process is quick from entering data for submission, until sending it to partners. The capital is also useful to help fund sales turnover "</p>
+</div>
+<hr />
+
+<div class="section-porto">
+	<p class="section-subheader">Main takeaway</p>
+	<h3>I wish I’d collaborated with engineers and partners earlier to have scalable design</h3>
+	<p> I got feedback from engineers when the design was almost finished. As the consequences, in technical system design, we have kinda lousy structured and need to refactor them later. Working on a financial technology product that highly regulated needs multiple alignments with multidisciplinary teams, from legal to the data security department. I wish I get an invite to the partners meeting earlier to get align effeciently.</p>
+</div>
+
+:ET

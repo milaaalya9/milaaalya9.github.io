@@ -1,0 +1,4 @@
+collections:
+  portfolios:
+    output: true
+    permalink: /:collection/:path
