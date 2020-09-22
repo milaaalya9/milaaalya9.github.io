@@ -8,6 +8,12 @@
 	h3{
 		color: $hotpink;
 	}
+	@media (max-width: 1024px) {
+  		p{
+  		width:100%;
+  		}
+  	}
+
 }
 .porto-work{
 	margin: 80px 0 80px 0;
@@ -45,8 +51,10 @@
  	margin-top: 36px;
  	margin-bottom: 56px;
 
-	@media (max-width: 800px) {
-  		width:100%;
+	@media (max-width: 1024px) {
+  		left: 50%;
+  		right: 50%;
+  		margin-bottom: 36px;
   	}
 }
 .img-follow {
