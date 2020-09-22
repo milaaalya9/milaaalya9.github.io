@@ -3,7 +3,7 @@
 
 html, body { font-family: 'Barlow', sans-serif; margin: auto; padding: 0; width: 80%; color: #2D3031; }
 
-html { font-size: 20px; overflow-y: scroll; }
+html { font-size: 20px; overflow-y: scroll; overflow-x: hidden; }
 
 @media (max-width: 800px) { html { width: 100%; } }
 
@@ -144,7 +144,7 @@ nav a:hover, nav a:focus { color: #FF0099; }
 
 .company { color: #1A117C; }
 
-.full-width { left: 65%; margin-left: -50vw; margin-right: -50vw; max-width: 100vw; position: relative; right: 65%; width: 100vw; margin-top: 36px; margin-bottom: 56px; }
+.full-width { width: 100vw; position: relative; left: 65%; right: 65%; margin-left: -50vw; margin-right: -50vw; max-width: 100vw; margin-top: 36px; margin-bottom: 56px; }
 
 @media (max-width: 1024px) { .full-width { left: 50%; right: 50%; margin-bottom: 36px; } }
 
