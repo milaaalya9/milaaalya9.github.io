@@ -1,4 +1,4 @@
-I"ß<p><img src="/assets/image/porto/aktro-hero.png" class="full-width" /></p>
+I"ƒ<p><img src="/assets/image/porto/aktro-hero.png" class="full-width" /></p>
 <div class="section-porto">
 	<p class="section-porto space-up-16">Aktro aims to educate people about the importance of energy conservation, and how to start conserving energy at home in this technology era. This project is crafted for HCIuxID  competition. I collaborated with 2 of my university colleges. Mostly we conducted every step together, but the deliverable design was made by me and my friend, Mutia.</p>
 </div>
@@ -36,16 +36,21 @@
 <div class="section-porto">
 	<p class="section-subheader">Concept design</p>
 	<h3>Designing solutions to address needs and formulating monetization models</h3>
+	<br />
 	<b>How might we encourage users to reduce their consumption?</b>
 		<li>Enable users to see their energy consumption information both for water and electricity in real-time to give them awareness when increased usage occurs.</li>
 		<li>Enable users to compare their electricity and water bills to know one of their usage consequences</li>
 		<li>Motivate users who succeed to decrease their consumption with reward.  For each decrease in water or electricity usage, the user will gain points. The accumulated points can then be exchanged for various rewards in the forms of vouchers or gifts.</li>
 		<li>Periodically inform users on the risk of wasting energy for the environment</li>
 	<br />
+	<img src="/assets/image/porto/aktro-3.png" class="img-follow" />
+	<br />
 	<b>How might we help users manage their energy consumption?</b>
 		<li>Enable user to pay their water and electricity bills, so everything about energy management in one place to increase their awareness</li>
 		<li>Enable user to set limit and target of their consumptions, so they know what to achieve</li>
 		<li>Educate users on how to manage their energy consumptions effectively, so they know can create their action points</li>
+	<br />
+	<img src="/assets/image/porto/aktro-4.png" class="img-follow" />
 	<br />
 	<b>How might we monetize the apps?</b>
 		<p>We think of partnering with stakeholders that we stated previously. The rewards system and cost might become from government funds.</p>
@@ -57,15 +62,16 @@
 </div>
 <div class="section-porto">
 	<h3>The design</h3>
-	<p>You can interect with the prototype below. It's in Indonesia language.</p>
+	<p>You can interact with the prototype below. It's in the Indonesia language.</p>
 	<iframe src="https://marvelapp.com/prototype/33d0f9d?emb=1&amp;iosapp=false&amp;frameless=false" width="452" height="881" allowtransparency="true" frameborder="0"></iframe>
 </div>
 <hr />
 
 <div class="section-porto">
 	<p class="section-subheader">Main takeaway and future works</p>
-	<h3>Designing products for public and non-commercial intention needs a lot of iteartions</h3>
-	<p>I learn that designing products for people goods needs a lot of aspects to think about. I believe the design needs further iterations, it can be a pilot testing or research with a broad participants. We still have bunch of questions without answers.</p>
+	<h3>Designing products for public and non-commercial intention needs a lot of iterations</h3>
+	<p>
+	I learn that designing products for people's goods needs a lot of aspects to think about. I believe the design needs further iterations, it can be a pilot testing or research with broad participants. We still have a bunch of questions without answers.</p>
 </div>
 
 :ET

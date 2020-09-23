@@ -51,10 +51,14 @@ image: /assets/image/porto/aktro-preview.png
 		<li>Motivate users who succeed to decrease their consumption with reward.  For each decrease in water or electricity usage, the user will gain points. The accumulated points can then be exchanged for various rewards in the forms of vouchers or gifts.</li>
 		<li>Periodically inform users on the risk of wasting energy for the environment</li>
 	<br>
+	<img src="/assets/image/porto/aktro-3.png" class="img-follow">
+	<br>
 	<b>How might we help users manage their energy consumption?</b>
 		<li>Enable user to pay their water and electricity bills, so everything about energy management in one place to increase their awareness</li>
 		<li>Enable user to set limit and target of their consumptions, so they know what to achieve</li>
 		<li>Educate users on how to manage their energy consumptions effectively, so they know can create their action points</li>
+	<br>
+	<img src="/assets/image/porto/aktro-4.png" class="img-follow">
 	<br>
 	<b>How might we monetize the apps?</b>
 		<p>We think of partnering with stakeholders that we stated previously. The rewards system and cost might become from government funds.</p>
@@ -66,7 +70,7 @@ image: /assets/image/porto/aktro-preview.png
 </div>
 <div class="section-porto">
 	<h3>The design</h3>
-	<p>You can interact with the prototype below. It's in the Indonesia language.</p>
+	<p>You can interact with the prototype below. The application is in Indonesia language.</p>
 	<iframe src="https://marvelapp.com/prototype/33d0f9d?emb=1&iosapp=false&frameless=false" width="452" height="881" allowTransparency="true" frameborder="0"></iframe>
 </div>
 <hr>
