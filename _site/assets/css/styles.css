@@ -33,11 +33,11 @@ h1, h2, h3, h4 { color: #0D0F0F; margin-block-start: 0; margin-block-end: 4px; }
 
 h1, h2 { color: #1A117C; }
 
-h1 { font-size: 48px; font-weight: 600; line-height: 52px; }
+h1 { font-size: 54px; font-weight: 600; line-height: 52px; }
 
-h2 { font-size: 36px; color: #0D0F0F; }
+h2 { font-size: 42px; color: #0D0F0F; }
 
-h3 { font-size: 28px; color: #0D0F0F; font-weight: 500; line-height: 36px; }
+h3 { font-size: 32px; color: #0D0F0F; font-weight: 600; line-height: 36px; }
 
 h4 { font-size: 24px; font-weight: 600; color: #1A117C; }
 
@@ -52,6 +52,8 @@ a:link { text-decoration: none; }
 .space-down-24 { margin-bottom: 24px; }
 
 .space-down-12 { margin-bottom: 12px; }
+
+.space-down-80 { margin-bottom: 80px; }
 
 nav { margin: 36px 0px 64px 0px; }
 
@@ -171,5 +173,23 @@ nav a:hover, nav a:focus { color: #FF0099; }
 .catalogue-identifier { font-size: 16px; color: #2D3031; }
 
 .catalogue-identifier b { font-weight: 600; }
+
+.worklist { margin: 36px 0px 36px 0px; }
+
+.worklist p { font-size: 16px; line-height: 24px; margin-block-start: 0.3em; padding-right: 16px; width: 100%; }
+
+.worklist h4 { color: #0D0F0F; font-weight: 500; margin-top: 16px; }
+
+.worklist h5 { font-weight: 400; font-size: 16px; margin-top: 16px; }
+
+.bigtitle { font-size: 54px; margin-bottom: 16px; }
+
+.main-greeting { margin-bottom: 132px; margin-top: 132px; }
+
+.main-greeting p { width: 70%; }
+
+.main-greeting h3 { color: #FF0099; }
+
+@media (max-width: 1024px) { .main-greeting p { width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */

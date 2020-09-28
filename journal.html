@@ -1,0 +1,35 @@
+---
+layout: default
+title: Journal - Mila Alief
+---
+
+<div class="section">
+	<br>
+	<div class="row">
+		<div class="two-column">
+			<img src="assets/image/img-1.png" style="width:100%">
+		</div>
+		<div class="two-column">
+			<img src="assets/image/img-2.png" style="width:100%">
+		</div>
+	</div>
+	<div class="section-link">
+		<a href="gallery.html">see more
+		<i class="material-icons">east</i>
+		</a>
+		
+	</div>
+</div>
+
+
+<div class="catalogue">
+	{% for post in site.categories.blog %}
+	<div class="catalogue-item">
+	    <a href="{{ post.url }}">
+	    <h3 class="catalogue-title">{{ post.title }}</h3>
+	    </a>
+	    <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+	</div>
+	{% endfor %}
+
+</div>

@@ -1,6 +1,6 @@
-- name: Blog
-  link: /
 - name: Work
-  link: /work.html
+  link: /
+- name: Journal
+  link: /journal.html
 - name: About
   link: /about.html

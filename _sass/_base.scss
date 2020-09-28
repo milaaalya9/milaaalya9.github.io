@@ -106,7 +106,7 @@ h2{
 h3{
   font-size: $h3;
   color: $text-heading;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 36px;
 }
 h4{
@@ -138,3 +138,6 @@ a:link{
   margin-bottom: 12px;
 }
 
+.space-down-80{
+  margin-bottom: 80px;
+}

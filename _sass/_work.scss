@@ -1,4 +1,43 @@
 .worklist{
 	margin: 36px 0px 36px 0px;
-	
+	p{
+	 font-size: 16px;
+	 line-height: 24px;
+	 margin-block-start: 0.3em;
+	 padding-right: 16px;
+	 width:100%;
+	}
+	h4{
+	 color: $text-heading;
+	 font-weight: 500;
+	 margin-top: 16px;
+	}
+	h5{
+	 font-weight: 400;
+	 font-size: 16px;
+	 margin-top: 16px;
+	}
+
+}
+
+.bigtitle{
+  font-size:54px;
+  margin-bottom: 16px;
+}
+
+.main-greeting{
+	margin-bottom: 132px;
+	margin-top: 132px;
+	p{
+		width: 70%;
+	}
+	h3{
+		color: $hotpink;
+	}
+	@media (max-width: 1024px) {
+  		p{
+  		width:100%;
+  		}
+  	}
+
 }

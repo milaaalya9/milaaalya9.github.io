@@ -1,9 +1,38 @@
 ---
 layout: default
-title: Home
+title: Home - Mila Alief
 ---
-<div class="section">
+
+<body>
+<div class="main-greeting">
+  <h1 class="bigtitle">Hi, I'm Mila!🌻</h1>
+  <h4 class="space-down-24">a digital product designer, who thinks a lot.</h4>
+  <p class="space-down-24">Currently working at design system team in Bukalapak, Jakarta, Indonesia. I love to learn about a lot of things. This year, I'm focus learning about structural thinking while honing my design crafting skills.
+	</p>
+	<a href="mailto:milaaliefalya@gmail.com"><img src="assets/image/email.svg" style="width: 28px;"></a>
+	<a href="https://www.linkedin.com/in/milaalief/"><img src="assets/image/linkedin.svg"></a>
+	<a href="https://twitter.com/milalief"><img src="assets/image/twitter.svg"></a>
+</div>
+<div class="space-down-80">
+	<h3>👩‍💻 Highlighted works</h3>
+	<p> Project case study is under construction </p>
 	<div class="row">
+	  	{% for item in site.data.professionalwork %}
+		  	<div class="two-column space-down-24 worklist"> 
+		  			<img src="{{ item.image }}" style="width:100%">
+			  		<h4>{{ item.project }}</h4>
+			  		<h5><b>{{ item.company }}</b> {{ item.workduration }}</h5>
+			  		<p>{{ item.desc }}</p>
+
+		  	</div>
+		{% endfor %}
+	</div>
+</div>
+<!--
+<div class="space-down-80">
+	<h3>🎨 Visual Exercises</h3>
+	<p> I tried to re-learn from the basic and exercise visual aspects of design, below are my explorations </p>
+	<div class="row worklist">
 		<div class="two-column">
 			<img src="assets/image/img-1.png" style="width:100%">
 		</div>
@@ -11,23 +40,7 @@ title: Home
 			<img src="assets/image/img-2.png" style="width:100%">
 		</div>
 	</div>
-	<div class="section-link">
-		<a href="gallery.html">take a look at her gallery
-		<i class="material-icons">east</i>
-		</a>
-		
-	</div>
 </div>
+-->
 
-
-<div class="catalogue">
-	{% for post in site.categories.blog %}
-	<div class="catalogue-item">
-	    <a href="{{ post.url }}">
-	    <h3 class="catalogue-title">{{ post.title }}</h3>
-	    </a>
-	    <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-	</div>
-	{% endfor %}
-
-</div>
+</body>
