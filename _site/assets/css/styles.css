@@ -104,13 +104,23 @@ nav a:hover, nav a:focus { color: #FF0099; }
 
 @media (max-width: 800px) { .catalogue { width: 100%; } }
 
-.worklist { margin: 36px 0px 56px 0px; }
+.worklist { margin: 36px 0px 36px 0px; }
 
-.worklist span { color: #787D7E; }
+.worklist p { font-size: 16px; line-height: 24px; margin-block-start: 0.3em; padding-right: 16px; width: 100%; }
 
-.worklist b { font-weight: 600; }
+.worklist h4 { color: #0D0F0F; font-weight: 500; margin-top: 16px; }
 
-.worklist p { margin-block-start: 0.5em; }
+.worklist h5 { font-weight: 400; font-size: 16px; margin-top: 16px; }
+
+.bigtitle { font-size: 54px; margin-bottom: 16px; }
+
+.main-greeting { margin-bottom: 132px; margin-top: 132px; }
+
+.main-greeting p { width: 70%; }
+
+.main-greeting h3 { color: #FF0099; }
+
+@media (max-width: 1024px) { .main-greeting p { width: 100%; } }
 
 .post { margin: 64px 0 0 0; width: 76%; font-weight: 400; }
 
@@ -173,23 +183,5 @@ nav a:hover, nav a:focus { color: #FF0099; }
 .catalogue-identifier { font-size: 16px; color: #2D3031; }
 
 .catalogue-identifier b { font-weight: 600; }
-
-.worklist { margin: 36px 0px 36px 0px; }
-
-.worklist p { font-size: 16px; line-height: 24px; margin-block-start: 0.3em; padding-right: 16px; width: 100%; }
-
-.worklist h4 { color: #0D0F0F; font-weight: 500; margin-top: 16px; }
-
-.worklist h5 { font-weight: 400; font-size: 16px; margin-top: 16px; }
-
-.bigtitle { font-size: 54px; margin-bottom: 16px; }
-
-.main-greeting { margin-bottom: 132px; margin-top: 132px; }
-
-.main-greeting p { width: 70%; }
-
-.main-greeting h3 { color: #FF0099; }
-
-@media (max-width: 1024px) { .main-greeting p { width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */
