@@ -1,0 +1,29 @@
+---
+layout: general-portfolio-home
+title: Mila Alief's Portfolio
+---
+<div class="main-greeting">
+  <h1 class="bigtitle">Hi, I'm Mila!🌻</h1>
+  <h4 class="space-down-24">a digital product designer, who thinks a lot.</h4>
+  <p class="space-down-24">Currently working at design system team in Bukalapak, Jakarta, Indonesia. I love to learn about a lot of things. This year, I'm focus learning about structural thinking while honing my design crafting skills.
+  </p>
+  <a href="mailto:milaaliefalya@gmail.com"><img src="assets/image/email.svg" style="width: 28px;"></a>
+  <a href="https://www.linkedin.com/in/milaalief/"><img src="assets/image/linkedin.svg"></a>
+  <a href="https://twitter.com/milalief"><img src="assets/image/twitter.svg"></a>
+</div>
+
+<div class="porto-work">
+  <h1>Works</h1>
+  <div class="row">
+    {% for portfolio in site.works %}
+    <div class="two-column space-down-54">
+        <a href="{{ portfolio.url }}">
+          <img src="{{ portfolio.image }}" style="width:100%">
+          <h3 class="catalogue-title">{{ portfolio.name }}</h3>
+          <p class="catalogue-identifier"><b>{{ portfolio.company }} </b>{{portfolio.workduration}}</p>
+          <span class="readduration">{{ portfolio.readduration }} read</span>
+        </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
