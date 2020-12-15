@@ -1,6 +1,6 @@
-- name: Work
-  link: /
 - name: Journal
-  link: /journal.html
+  link: /
+- name: Portfolio
+  link: /portfolio.html
 - name: About
   link: /about.html

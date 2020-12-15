@@ -2,11 +2,12 @@
 layout: general-portfolio-home
 ---
 
-<div class="post">
-  <span class="readduration">{{ page.readduration }} read</span>
-  <h1 style="margin-block-end: 0.5em;">{{ page.name }}</h1>
-  <span class="company space-down-16"><b>{{ page.company }}</b> {{page.workduration}}</span>
-
+<div class="section">
+  <img src="{{page.image}}" class="space-down-42" style="width: 100%">
+  <div class="container">
+	  <span class="company space-down-24"><b>{{ page.company }}</b> {{page.workduration}}</span>
+	  <h1 class="title-post">{{ page.name }}</h1>
+  </div>
 
 {{ content }}
 

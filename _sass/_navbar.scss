@@ -1,5 +1,11 @@
 nav {
-	margin: 36px 0px 64px 0px;
+  width: 80%;
+	padding: 24px 0px 24px 0px;
+  margin: auto;
+
+   @media (max-width: 800px) {
+    padding: 24px 20px 24px 20px;
+    }
 
 
   ul {
@@ -7,9 +13,9 @@ nav {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    @media (max-width: 500px) {
+    @media (max-width: 800px) {
     display: grid;
-    grid-gap: 16px;
+    grid-gap: 24px;
     text-align: center;
     }
 

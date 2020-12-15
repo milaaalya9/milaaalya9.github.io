@@ -1,0 +1,74 @@
+I"=<div class="container">
+	<p class="paragraph space-down-42">Aktro aims to educate people about the importance of energy conservation, and how to start conserving energy at home in this technology era. This project is crafted for HCIuxID  competition. I collaborated with 2 of my university colleges and my role was to research, and co-design the overall experiences.</p>
+</div>
+
+<div class="container">
+	<p class="body--smaller-bold">Problem background</p>
+	<p class="subheading paragraph space-down-12">The need for electricity and water is increasing day by day, but it is not followed by an increase in availability.</p>
+	<p class="paragraph space-down-42">For the last decade (2003-2013), the level of energy consumption in Indonesia has been going through an increase. The number rises from 79 tonnes of oil equivalent (TOE) to 134 TOE, equivalent to an average of 5,5% increase per year. The consequences of it might be an electricity and water crisis that will be bad as energies are an essential need in the life of the current generation.</p>	
+</div>
+
+<div class="container">
+	<p class="body--smaller-bold">Define direction based on user problems</p>
+	<p class="subheading paragraph space-down-12">To solve the issue we are  targeting people who have control over their energy bills and usages</p>
+	<p class="paragraph space-down-60">The users are someone who has control over their energy bills and usages such as homeowners, household members, property managers, or anyone looking to monitor their water and electricity consumption. </p>
+	<br />
+	<p class="body--smaller-bold">Objective</p>
+	<p class="subheading paragraph space-down-42">
+	Encourage households to conserve energy and manage their electricity and water consumption with the help of technology.</p>	
+	<p class="body--smaller-bold">We interviewed 5 households and figured out</p>
+	<p class="subheading paragraph space-down-42">The targeted users have the willingness to cut their energy consumptions. However they don't know what to save, they only know how much costs they spend each month from the bill. </p>
+	<img src="/assets/image/porto/aktro-1.png" style="width: 100%" class="space-down-42" />
+</div>
+
+<div class="container">
+	<p class="body--smaller-bold">Define other stakeholders </p>
+	<p class="subheading paragraph space-down-42">We believed to build an application for mass benefits we need to map suitable stakeholders to collaborate and support the product</p>
+	<p class="paragraph">We identify our potential stakeholders are</p>
+	<ul class="paragraph space-down-42">
+		<li>PLN as the only electricity provider in Indonesia, own by the government</li>
+		<li>PDAM as one of the water supplier in Indonesia, own by the government</li>
+		<li>Ministry of Environment and Forestry or Ministry of Energy and Mineral Resources as the regulator who supports energy conservations</li>
+	</ul>
+</div>
+
+<div class="container">
+	<p class="body--smaller-bold">Concept design</p>
+	<p class="subheading paragraph space-down-42">Designing solutions to address needs and formulating monetization models</p>
+	<p>How might we encourage users to reduce their consumption?</p>
+	<ul class="paragraph space-down-12">
+		<li>Enable users to see their energy consumption information both for water and electricity in real-time to give them awareness when increased usage occurs.</li>
+		<li>Enable users to compare their electricity and water bills to know one of their usage consequences</li>
+		<li>Motivate users who succeed to decrease their consumption with reward.  For each decrease in water or electricity usage, the user will gain points. The accumulated points can then be exchanged for various rewards in the forms of vouchers or gifts.</li>
+		<li>Periodically inform users on the risk of wasting energy for the environment</li>
+	</ul>
+	<img src="/assets/image/porto/aktro-3.png" class="section space-down-42" />
+	<p>How might we help users manage their energy consumption?</p>
+	<ul class="paragraph space-down-12">
+		<li>Enable user to pay their water and electricity bills, so everything about energy management in one place to increase their awareness</li>
+		<li>Enable user to set limit and target of their consumptions, so they know what to achieve</li>
+		<li>Educate users on how to manage their energy consumptions effectively, so they know can create their action points</li>
+	</ul>
+	<img src="/assets/image/porto/aktro-4.png" class="section space-down-42" />
+	<p class="body--smaller-bold">How might we monetize the apps?</p>
+	<p class="subheading paragraph space-down-42">We think of partnering with stakeholders that we stated previously. The rewards system and cost might become from government funds.</p>
+	<br />
+	<p class="body--smaller-bold">System design</p>
+	<p class="subheading paragraph space-down-42">
+	We talked with the PLN representative to understand the feasibility of the system and created the diagram below. </p>
+	<img src="/assets/image/porto/aktro-2.png" class="section space-down-42" style="width: 500px;" />
+</div>
+<div class="container">
+	<p class="body--smaller-bold">The design</p>
+	<p class="paragraph space-down-42">You can interact with the prototype below. The application is in Indonesia language.</p>
+	<iframe src="https://marvelapp.com/prototype/33d0f9d?emb=1&amp;iosapp=false&amp;frameless=false" width="452" height="881" allowtransparency="true" frameborder="0"></iframe>
+</div>
+<div class="container">
+	<hr class="separator" />
+	<p class="body--smaller-bold">Main takeaway and future works</p>
+	<p class="subheading paragraph space-down-24">Designing products for public and non-commercial intention needs a lot of iterations</p>
+	<p class="paragraph space-down-60">
+	I learn that designing products for people's goods needs a lot of aspects to think about. I believe the design needs further iterations, it can be a pilot testing or research with broad participants. We still have a bunch of questions without answers.</p>
+</div>
+
+:ET

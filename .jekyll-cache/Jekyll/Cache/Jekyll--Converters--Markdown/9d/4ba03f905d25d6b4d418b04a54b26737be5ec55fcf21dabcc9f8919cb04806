@@ -1,0 +1,85 @@
+I"�<div class="container">
+	<p class="paragraph">I worked at design system team as a product designers collaborate with 2 designers and 8 engineers for almost one year. When I started, the design system only have base component, having a hard time to catch up 40+ product squads who consume it and wish to scale the system through collaboration and contributions. <br /> Below are the highlight of my work at the design system team</p>
+	<hr class="separator" />
+</div>
+
+<div class="container">
+	<h2 class="title-post space-down-24">Transform design system model from centralized to distributed</h2>
+	<p class="paragraph">In this project, my responsibility are <br /></p>
+	<ul class="paragraph space-down-42">
+		<li>Lead the project and coordinate with the team</li>
+		<li>Execute the system transformation including:</li>
+			<ul>
+				<li>Research the problems </li>
+				<li>Conceptualize system model and design the process</li>
+				<li>Validate the solution through workshop and check system feasibility</li>
+				<li>Rally and communicate the system changes</li>
+			</ul>
+	</ul>	
+</div>
+<div class="container container--grid">
+	<div><img src="/assets/image/porto/bazaar-2a.png" class="item-img" style="width: 100%" /></div>
+	<div class="space-down-42"><img src="/assets/image/porto/bazaar-2b.png" class="item-img" style="width: 100%" /></div>
+</div>
+<div class="container">
+	<span class="body--smaller-bold">Challenges<br /></span>
+	<p>From 3 designers and 3 engineers I interviewed, I found that</p>
+	<p class="subheading paragraph space-down-24">Product teams invented non-reusable new components, at the same time need to reuse other product component</p>
+	<span class="body--smaller">Reason</span>
+	<p class="paragraph space-down-24">They feel like if they use bazaar components, it is not necessarily optimized for their product-specific needs. At the same time our system also is not designed to make squads accustomed to working on components by themself and share it with each other.</p>
+	<span class="body--smaller">Consequence<br /></span>
+	<p class="paragraph space-down-42">Unintentional component divergence that can't be reused directly, have a risk to be a system debts in the future since when an update is made it will not get affected and lessen cohesiveness since they work in silo</p>
+</div>
+
+<div class="container">
+	<span class="body--smaller-bold">Objective<br /></span>
+	<p class="subheading paragraph space-down-42">Enable system users create and use each other components by themself</p>
+</div>
+
+<div class="container">
+	<span class="body--smaller-bold">Outcome<br /></span>
+	<p class="subheading paragraph space-down-42">1. A family design system model, with guild library as the place for system users to put their sharable components</p>
+</div>
+
+<div class="space-down-42"><img src="/assets/image/porto/bazaar-3.png" class="section" style="width: 100%" /></div>
+
+<div class="container">
+	<p class="subheading paragraph space-down-24">2. Cadence and service to support system users coordinate and create cohesive components</p>
+	<p class="body--bolder">Build a governance system</p>
+	<p class="paragraph space-down-24">The core team manages bazaar token and library and system users manage the guild library. Each of us can contribute to one library or another.</p>
+	<p class="body--bolder">Recruite ambassador as the bridge</p>
+	<p class="paragraph space-down-42">
+	Responsible to facilitate component collaboration inside the guild, maintain the quality of guild library and connect guild with core team. To collaborate closely with us, I arrange ambassador weekly check-in to exchange knowledges about design systems and product experiences
+	</p>
+</div>
+
+<div class="container">
+	<span class="body--smaller-bold">Impact<br /></span>
+	<p class="subheading paragraph space-down-12">1 migration projects, and 15 reusable components are in progress to be add to our system</p>
+	<p class="paragraph">After almost two months, some components were added to our new system. We also get a good sign of enthusiasm from our team:
+	“I’m excited working on my guild library” - a guild ambassador
+	“Hey, I think this component can be a guild component” - a squad engineer</p>
+	<hr class="separator" />
+</div>
+
+<div class="container">
+	<h2 class="title-post space-down-24">Design and facilitate<br />component creation</h2>
+	<p class="paragraph space-down-80">I design components ranging from molecule to pattern, provide the process for designers to create components and facilitate global component design co-creation.</p>
+</div>
+
+<div class="space-down-120"><img src="/assets/image/porto/bazaar-4.png" class="section" style="width: 100%" /></div>
+
+<div class="container">
+	<hr class="separator" />
+	<h2 class="title-post space-down-24">Design system documentation</h2>
+	<p class="paragraph space-down-80">Design system documentation is one of crucial things in order to make the system works. I co-design its homepage and design its component pages</p>
+</div>
+
+<div class="space-down-120"><img src="/assets/image/porto/bazaar-5.png" class="section" style="width: 100%" /></div>
+
+<div class="container">
+	<p class="paragraph space-down-80">I also construct foundational guide such as color and typography to help designer utilize it optimally and cohesively with our brand guideline. It consists of design token list, principles, guide and do and don’t.</p>
+</div>
+
+<div class="space-down-80"><img src="/assets/image/porto/bazaar-6.png" class="section" style="width: 100%" /></div>
+:ET
